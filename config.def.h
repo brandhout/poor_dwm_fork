@@ -107,6 +107,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_c,      quit,           {0} },
+  { MODKEY|ShiftMask,		XK_l,		spawn,		SHCMD("xscreensaver-command -lock") },
 };
 
 /* button definitions */
